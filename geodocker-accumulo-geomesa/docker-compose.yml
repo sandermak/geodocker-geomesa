@@ -30,8 +30,7 @@ services:
         ZOOKEEPERS: zookeeper
         ACCUMULO_PASSWORD: GisPwd
       volumes:
-        - ./threetracks.csv:/root/threetracks.csv
-        - ./geomesa-tutorials-accumulo-quickstart-2.3.0-SNAPSHOT.jar:/root/geomesa-tutorials-accumulo-quickstart-2.3.0-SNAPSHOT.jar
+        - ./shared/:/root/shared/
       depends_on:
         - zookeeper
     accumulo-monitor:
