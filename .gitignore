@@ -1,7 +1,8 @@
 */ivy*jar
 .DS_Store
-threetracks.csv
 geodocker-geomesa-jupyter/lib
+threetracks.csv
+trackdata.csv
 build
 build/zinc*
 build/scala*
